@@ -19,7 +19,7 @@ body {
 nav {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 40px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--white);
@@ -29,7 +29,7 @@ nav {
 }
 
 nav > img {
-  width: 120px;
+  width: 90px;
   margin-left: 20px;
   object-fit: cover;
 }
@@ -40,6 +40,8 @@ nav > ul {
   list-style: none;
   margin-right: 20px;
   color: var(--text);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
 
 nav > ul > li {
@@ -67,4 +69,111 @@ nav > ul > li {
 
 .landing p {
   margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.whatsOn {
+  height: 200px;
+  background-color: var(--white);
+  text-align: center;
+  margin: 20px 20px 0 20px;
+}
+
+.whatsOn h2 {
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-underline-offset: 6px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 8px;
+}
+
+.features img {
+  width: 40px;
+}
+
+.features h3 {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--green);
+  margin-bottom: 8px;
+}
+
+.features p {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.millionSongs {
+  padding: 32px;
+}
+
+.hdMusic {
+  padding: 32px;
+}
+
+.streamEverywhere {
+  padding: 32px;
+}
+
+.yeezy {
+  margin: 20px 20px 0px 20px;
+  background-color: var(--green);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.left {
+  padding: 32px 64px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left h2 {
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: var(--white);
+  text-underline-offset: 6px;
+  margin-bottom: 20px;
+}
+
+.left h3 {
+  font-size: 12px;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right img {
+  width: 160px;
+}
+
+.white-logo {
+  position: absolute;
+  width: 60px;
+  right: 50%;
+  top: 50%;
 }
